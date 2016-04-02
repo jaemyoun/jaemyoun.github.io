@@ -137,7 +137,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 }
 
 #slide_2 {
-	background: #000 url(http://placehold.it/1920x1200) fixed no-repeat;
+	background: #000 url(./img/slide2.jpg) fixed no-repeat;
 }
 
 #slide_3 {
