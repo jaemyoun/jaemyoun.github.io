@@ -133,7 +133,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 /* ==== Intro slider images ==== */
 
 #slide_1 {
-	background: #000 url(http://placehold.it/1920x1200) fixed no-repeat;
+	background: #000 url(./img/slide1.jpg) fixed no-repeat;
 }
 
 #slide_2 {
@@ -141,7 +141,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 }
 
 #slide_3 {
-	background: #000 url(http://placehold.it/1920x1200) fixed no-repeat;
+	background: #000 url(./img/slide3.jpg) fixed no-repeat;
 }
 
 @media (min-width: 1920px) {
