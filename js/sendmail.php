@@ -3,13 +3,13 @@
 $sendto = 'jaemyoun@gmail.com';
 
 // The subject you'll see in your inbox
-$subject = 'A message from Syndicate site';
+$subject = 'A message from Jaemyoun.com site';
 
 // Message for the user when he/she doesn't fill in the form correctly.
 $errormessage = 'Looks like you are missing some info. Try again.';
 
 //Message for the user when he/she fills in the form correctly.
-$thanks = "Thanks for the email. We'll get back to you as soon as we can.";
+$thanks = "Thanks for the email. I'll get back to you as soon as I can.";
 
 // Message for the bot when it fills in in at all.
 $honeypot = "You filled in the honeypot! If you're human, try again!";
