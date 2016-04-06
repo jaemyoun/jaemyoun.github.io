@@ -137,7 +137,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
   background-image: #fff url(../img/slide1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  /*background-position: center top;*/
   background-attachment: fixed;
 }
 
@@ -145,8 +145,8 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	/*background: #000 url(../img/slide2.jpg) fixed no-repeat;*/
   background-image: #fff url(../img/slide2.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center top;
+  /*background-size: 100% auto;
+  background-position: center top;*/
   background-attachment: fixed;
 }
 
@@ -155,7 +155,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
   background-image: #fff url(../img/slide3.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
-  background-position: center top;
+  /*background-position: center top;*/
   background-attachment: fixed;
 }
 
