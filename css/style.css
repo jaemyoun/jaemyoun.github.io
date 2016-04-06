@@ -147,6 +147,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 @media (min-width: 1920px) {
 	#slide_1, #slide_2, #slide_3 {
 		background-size: cover;
+		background-position: center top;
 	}
 }
 
