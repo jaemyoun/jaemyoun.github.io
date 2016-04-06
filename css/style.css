@@ -148,6 +148,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
   background-size: 100% auto;
   background-position: center top;
   background-attachment: fixed;
+}
 
 #slide_3 {
 	/*background: #000 url(../img/slide3.jpg) fixed no-repeat;*/
@@ -156,7 +157,6 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
   background-size: auto 100%;
   background-position: center top;
   background-attachment: fixed;
-}
 }
 
 @media (min-width: 1920px) {
