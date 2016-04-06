@@ -133,31 +133,15 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 /* ==== Intro slider images ==== */
 
 #slide_1 {
-	/*background: #000 url(../img/slide1.jpg) fixed no-repeat;*/
-  background-image: url(../img/slide1.jpg);
-  background-color: #000;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*background-position: center top;*/
-  background-attachment: fixed;
+	background: #000 url(../img/slide1.jpg) fixed no-repeat;
 }
 
 #slide_2 {
-	background: #000 url(../img/slide2.jpg) cover no-repeat;
-  /*background-image: url(../img/slide2.jpg);*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: 100% auto;*/
-  /*background-position: center top;*/
-  /*background-attachment: fixed;*/
+	background: #000 url(../img/slide2.jpg) fixed no-repeat;
 }
 
 #slide_3 {
-	/*background: #000 url(../img/slide3.jpg) fixed no-repeat;*/
-  background-image: url(../img/slide3.jpg);
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  /*background-position: center top;*/
-  background-attachment: fixed;
+	background: #000 url(../img/slide3.jpg) fixed no-repeat;
 }
 
 @media (min-width: 1920px) {
@@ -168,7 +152,8 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 
 @media (max-width: 1024px) {
 	#slide_1, #slide_2, #slide_3 {
-		background-size: 1024px auto;
+		/*background-size: 1024px auto;*/
+    background-size: cover;
 		background-position: center top;
 		padding-top: 60px;
 	}
