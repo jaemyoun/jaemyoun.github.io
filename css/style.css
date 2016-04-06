@@ -133,15 +133,30 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 /* ==== Intro slider images ==== */
 
 #slide_1 {
-	background: #000 url(../img/slide1.jpg) fixed no-repeat;
+	/*background: #000 url(../img/slide1.jpg) fixed no-repeat;*/
+  background-image: #fff url(../img/slide1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 #slide_2 {
-	background: #000 url(../img/slide2.jpg) fixed no-repeat;
-}
+	/*background: #000 url(../img/slide2.jpg) fixed no-repeat;*/
+  background-image: #fff url(../img/slide2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed;
 
 #slide_3 {
-	background: #000 url(../img/slide3.jpg) fixed no-repeat;
+	/*background: #000 url(../img/slide3.jpg) fixed no-repeat;*/
+  background-image: #fff url(../img/slide3.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
 }
 
 @media (min-width: 1920px) {
@@ -329,12 +344,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 /* ==== Header backgrounds ==== */
 
 #first-header {
-  background-image: #fff url(../img/jaebg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-	/*background: #fff url(../img/jaebg.jpg) center top no-repeat;*/
+	background: #fff url(../img/jaebg.jpg) center top no-repeat;
 }
 
 #activities-header {
