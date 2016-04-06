@@ -331,7 +331,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 #first-header {
   background-image: #fff url(../img/jaebg.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center top;
   background-attachment: fixed;
 	/*background: #fff url(../img/jaebg.jpg) center top no-repeat;*/
