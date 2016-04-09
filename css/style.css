@@ -335,7 +335,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 }
 
 #activities-header {
-	background: #fff url(http://placehold.it/1400x550) center top no-repeat;
+	background: #fff url(../img/jaebg.jpg) center top no-repeat;
 }
 
 @media (min-width: 1400px) {
