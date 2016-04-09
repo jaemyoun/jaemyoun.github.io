@@ -288,7 +288,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 /* ==== Section Headers ==== */
 
 .header {
-	padding: 150px 20px 150px 20px;
+	padding: 150px 20px 250px 20px;
 	text-align: center;
 }
 
