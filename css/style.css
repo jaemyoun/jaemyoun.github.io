@@ -292,6 +292,11 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	text-align: center;
 }
 
+#first-header .header {
+	padding: 150px 20px 250px 20px;
+	text-align: center;
+}
+
 .header-extended {
 	padding: 0px;
 }
