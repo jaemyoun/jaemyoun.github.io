@@ -782,12 +782,25 @@
 	<!--google map-->
 		<script>
 			function initMap() {
-				var mapDiv = document.getElementById('map');
-				var map = new google.maps.Map(mapDiv, {
-					center: {lat: 37.297809, lng: 126.840545},
+				var myLatLng = {lat: 37.2968051, lng: 126.8362709};
+				var map = new google.maps.Map(document.getElementById('map'), {
 					zoom: 16,
+					center: myLatLng
+				});
+				var marker = new google.maps.Marker({
+					position: myLatLng,
+					map: map,
+					title: 'My lab!'
 				});
 			}
+			
+			
+			
+			
+			
+			
+	
+	
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 							
