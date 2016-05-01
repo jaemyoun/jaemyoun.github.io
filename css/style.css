@@ -1734,3 +1734,9 @@ form .btn {
 .bggray {
 	background-color: #f5f5f5;
 }
+
+
+#map {
+	width: 500px;
+	height: 400px;
+}
