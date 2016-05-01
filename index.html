@@ -659,16 +659,6 @@
 					<div class="col-lg-12">
 						<div class="row">
 							<div id="map"></div>
-							<script>
-								function initMap() {
-									var mapDiv = document.getElementById('map');
-									var map = new google.maps.Map(mapDiv, {
-										center: {lat: 44.540, lng: -78.546},
-										zoom: 8
-									});
-								}
-							</script>
-							<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 						</div>
 						<!--<div class="row">
 							<form action="js/sendmail.php" class="form-inline" role="form" method="post" id="contactForm">
@@ -788,6 +778,19 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 		</script>
+	
+	<!--google map-->
+		<script>
+			function initMap() {
+				var mapDiv = document.getElementById('map');
+				var map = new google.maps.Map(mapDiv, {
+					center: {lat: 44.540, lng: -78.546},
+					zoom: 8
+				});
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+							
 	<!--custom script-->
 		<script src="js/custom.js"></script>
 	<!--end scripts-->
