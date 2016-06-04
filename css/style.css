@@ -1740,3 +1740,5 @@ form .btn {
 	width: 100%;
 	height: 400px;
 }
+
+blockquote span.displaynone { display:none; }
