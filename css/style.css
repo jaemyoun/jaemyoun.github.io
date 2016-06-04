@@ -440,7 +440,8 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 }
 
 .video {
-	margin-bottom: 35px;
+	/*margin-bottom: 35px;*/
+	margin-bottom: 0px;
 }
 
 .fluid-width-video-wrapper {
