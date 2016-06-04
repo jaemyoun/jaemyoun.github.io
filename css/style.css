@@ -310,7 +310,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	line-height: 0.01em;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
 	.header h1 {
 		line-height: 1.0em;
 	}
