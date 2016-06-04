@@ -1225,14 +1225,9 @@
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
 		<![endif]-->
-	<!--tour-->
-		<script src="js/guideline.main.js"></script>
-		<script src="js/guideline.steps.js"></script>
 	<!--work / blog-->
 		<script src="js/toucheffects.js"></script>
 		<script src="js/modals.js"></script>
-	<!--contact form-->
-		<script src="js/jquery.form.js"></script>
 	<!--menu close on select-->
 		<script>
 			if ($('.navbar-toggle:visible').length) {
@@ -1251,6 +1246,24 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 		</script>
+	
+	<!--google map-->
+		<script>
+			function initMap() {
+				var myLatLng = {lat: 37.2968051, lng: 126.8362709};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 16,
+					center: myLatLng,
+					scrollwheel: false
+				});
+				var marker = new google.maps.Marker({
+					position: myLatLng,
+					map: map,
+					title: 'My lab!'
+				});
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyCriuSlRK7xqTWH7tt9iCdDe8oHr_Wv7VY" async defer></script>
 	<!--custom script-->
 		<script src="js/custom.js"></script>
 	<!--end scripts-->
