@@ -160,9 +160,9 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	}
 }
 
-/* ==== jaemyoun_com / Details / Customers ==== */
+/* ==== services / Details / Customers ==== */
 
-#jaemyoun_com {
+#services {
 	background: #f7f8f9;
 	padding: 90px 0px 0px 0px;
 	text-align: center;
@@ -206,7 +206,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	background-image: linear-gradient(left, #E75239 0%,#E75239 12.5%,#FF961C 12.5%,#FF961C 25%,#FFCC27 25%,#FFCC27 37.5%,#FCE62F 37.5%,#FCE62F 50%,#CDE35B 50%,#CDE35B 62.5%,#82CC33 62.5%,#82CC33 75%,#41BECE 75%,#41BECE 87.5%,#049CDB 87.5%,#049CDB 100%);
 }
 
-#jaemyoun_com h3 {
+#services h3 {
 	font-size: 21px;
 	font-weight: 200;
 	line-height: 1;
@@ -222,7 +222,7 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	-webkit-text-stroke: 0.03em #25272B;
 }
 
-#jaemyoun_com h5, #details h5 {
+#services h5, #details h5 {
 	font-size: 13px;
 	color: #bbbdc0;
 	font-weight: 400;
@@ -230,11 +230,11 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	letter-spacing: 1px;
 }
 
-#jaemyoun_com p, #details p {
+#services p, #details p {
 	margin: 15px 0 35px 0;
 }
 
-#jaemyoun_com i {
+#services i {
 	color: #bbbdc0;
 	font-size: 60px;
 	line-height: 1.2em !important;
@@ -264,24 +264,24 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	font-size: 1.4em;
 }
 
-#jaemyoun_com i:hover {
+#services i:hover {
 	border: 0px dotted rgba(187, 189, 192, 1);
 	padding: 25px;
 }
 
-#jaemyoun_com i.blue:hover, #details i.blue {
+#services i.blue:hover, #details i.blue {
 	color: #00a9df;
 }
 
-#jaemyoun_com i.green:hover, #details i.green {
+#services i.green:hover, #details i.green {
 	color: #8dc838;
 }
 
-#jaemyoun_com i.red:hover, #details i.red {
+#services i.red:hover, #details i.red {
 	color: #DD1812;
 }
 
-#jaemyoun_com i.yellow:hover, #details i.yellow {
+#services i.yellow:hover, #details i.yellow {
 	color: #FCCA03;
 }
 
@@ -308,6 +308,12 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	color: #fff;
 	letter-spacing: -10px;
 	line-height: 0.01em;
+}
+
+@media (max-width: 375px) {
+	.header h1 {
+		line-height: 1.0em;
+	}
 }
 
 @media (max-width: 768px) {
@@ -339,20 +345,20 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 	background: #fff url(../img/jaebg.jpg) center top no-repeat;
 }
 
-#activities-header {
+#third-header {
 	background: #fff url(../img/activitiesbg.jpg) center top no-repeat;
 }
 
 @media (min-width: 1400px) {
 	#first-header,
-	#activities-header {
+	#third-header {
 		background-size: cover;
 	}
 }
 
 @media (max-width: 767px) {
 	#first-header,
-	#activities-header {
+	#third-header {
 		background-size: cover;
 	}
 }
@@ -440,7 +446,8 @@ textarea:focus, input:focus, a:focus, a:visited, *:focus {
 }
 
 .video {
-	margin-bottom: 35px;
+	/*margin-bottom: 35px;*/
+	margin-bottom: 0px;
 }
 
 .fluid-width-video-wrapper {
@@ -749,7 +756,7 @@ audio {
 /* ==== Contact ==== */
 
 #contact {
-	padding: 0px 0px 70px 0px;
+	padding: 70px 0px 70px 0px;
 }
 
 #contact h3 {
@@ -1735,8 +1742,15 @@ form .btn {
 	background-color: #f5f5f5;
 }
 
-
 #map {
-	width: 100%;
-	height: 400px;
+	height: 350px;
+	margin-top: 58px;
 }
+
+@media (max-width: 568px){
+	#map {
+		height: 200px;
+	}
+}
+
+span.displaynone { display:none; }
