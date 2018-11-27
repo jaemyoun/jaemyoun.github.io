@@ -12,15 +12,10 @@ $(document).ready(function() {
     if (scrollVal < 0) {
       scrollVal = 0;
     }
-
-    $('[data-spy="scroll"]').each(function() {
-      $(this).scrollspy('refresh');
-    });
-
-    $.scrollTo(scrollVal, {
-      easing: 'easeInOutExpo',
-      duration: 1500
-    });
+    
+    $([document.documentElement, document.body]).animate({
+      scrollTop: scrollVal
+    }, 1000, 'easeInOutExpo');
 
     event.preventDefault();
   });
@@ -86,8 +81,7 @@ $(document).ready(function() {
   }
 });
 
-
-$(window).load(function() {
+$(window).on('load', function() { 
   'use strict';
   //preloader
   $(window).scrollTop(0);
