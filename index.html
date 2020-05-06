@@ -856,22 +856,17 @@
 		</script>
 	
 	<!--google map-->
-		<script>
+    	<script>
+			var map;
 			function initMap() {
-				var myLatLng = {lat: 37.402188, lng: 127.103419};
-				var map = new google.maps.Map(document.getElementById('map'), {
-					zoom: 16,
-					center: myLatLng,
-					scrollwheel: false
-				});
-				var marker = new google.maps.Marker({
-					position: myLatLng,
-					map: map,
-					title: 'My location!'
-				});
+			map = new google.maps.Map(document.getElementById('map'), {
+				center: {lat: 37.402188, lng: 127.103419},
+				zoom: 16,
+				scrollwheel: false
+			});
 			}
 		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyCriuSlRK7xqTWH7tt9iCdDe8oHr_Wv7VY" async defer></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-OxZfXpimeyiQK2QvdDvpRVNAh93Z0t8&callback=initMap" async defer></script>
 	<!--custom script-->
 		<script src="js/custom.js"></script>
 	<!--end scripts-->
