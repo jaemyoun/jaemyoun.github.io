@@ -1390,6 +1390,11 @@ form .btn {
 	z-index: 9999;
 }
 
+.modal-body .col-lg-12.margin.lf {
+	text-align: left;
+	z-index: 9999;
+}
+
 .modal-backdrop {
 	display: none !important;
 }
