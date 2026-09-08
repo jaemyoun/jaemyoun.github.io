@@ -35,6 +35,16 @@ $(document).ready(function() {
     horizrailenabled: false
   });
 
+  // 탭 전환이 완료되면 해당 모달의 스크롤 영역 갱신
+  $('.modal').on('shown.bs.tab', '[data-toggle="tab"]', function () {
+    $(this).closest('.modal').getNiceScroll().resize();
+  });
+
+  // 모달을 처음 열거나 다시 열었을 때도 갱신
+  $('.modal').on('shown.bs.modal', function () {
+    $(this).getNiceScroll().resize();
+  });
+
   //make intro carousel height of window
   $('#carousel_intro .item').css({'height': ($(window).height()) + 'px'});
   $(window).resize(function() {
